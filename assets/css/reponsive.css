@@ -1,0 +1,25 @@
+@media (max-width: 1023px) {
+
+    html{
+      font-size: 50%;
+    }
+    .navbar-btn{
+      display: block;
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .navbar__logo-img2{
+      display: block;
+    }
+    .header__navbar{
+      display: none;
+    }
+    .header__info{
+      display: none;
+    }
+   .parallax{
+       height: 900px;
+   }
+  }
