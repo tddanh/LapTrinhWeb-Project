@@ -12,8 +12,13 @@
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/reponsive.css">
+    <!-- ICON THEMIFY -->
     <link rel="stylesheet" href="./font/themify-icons/themify-icons.css">
+    <!-- FONT ROBOTO -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- AOS ANIMATION -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
        $(document).ready(function(){
@@ -111,14 +116,13 @@
             </nav>
             
           
-            <!-- REPONSIV -->
+            <!-- REPONSIVE -->
             <div class="navbar-btn" id="mobile-menu-btn">
                   <i class="ti-view-list"></i>
             </div>
             <a href="./index.html">
                 <img src="./img/logo-dark.png" alt="" class="navbar__logo-img2">
             </a>  
-
 
             <nav class="header__navbar-mobile" id="header-repon">
                 <i class="ti-close"></i>
@@ -150,7 +154,6 @@
         <div class="slider">
             <div class="wrapper">
                 <div class="static-txt"> Tìm kiếm </div>
-            
             </div>
         <div class="slider-ad">
             <input class="search-txt" type="text" name="" placeholder="Tìm Kiếm theo Thành Phố hoặc Địa chỉ">
@@ -160,18 +163,19 @@
         </div>
         </div>
 
+        <!-- LỰA CHỌN KIỂU NHÀ -->
         <div class="introduce">
             <div class="grid wide">
                 <div class="row">
-                        <div class="introduce-backgroud col l-3 m-6 c-6">
-                            <img src="./img/introduce/ralph-ravi-kayden-mR1CIDduGLc-unsplash.jpg" alt="" class="introduce-img">
+                        <div class="introduce-backgroud col l-3 m-6 c-6" data-aos="zoom-in-up" data-aos-duration="1500">
+                            <img src="./img/introduce/pexels-photo-2581922.jpeg" alt="" class="introduce-img">
                             <div class="intro-content">
-                                <h3 class="intro-content-title">Hồ Bơi</h3>
+                                <h3 class="intro-content-title">Thiên Nhiên</h3>
                                 <p class="intro-option">5 Lựa Chọn</p>
                                 <button href="" class="intro-btn">Chọn nhà</button>
                             </div>
                         </div>
-                        <div class="introduce-backgroud col l-3 m-6 c-6 ">
+                        <div class="introduce-backgroud col l-3 m-6 c-6 " data-aos="fade-up" data-aos-duration="1500"   >
                             <img src="./img/introduce/terrah-holly-pmhdkgRCbtE-unsplash.jpg" alt="" class="introduce-img">
                             <div class="intro-content">
                                 <h3 class="intro-content-title">Ấm Cúng</h3>
@@ -179,7 +183,7 @@
                                 <button href="" class="intro-btn">Chọn nhà</button>
                             </div>
                         </div>
-                        <div class="introduce-backgroud col l-3 m-6 c-6">
+                        <div class="introduce-backgroud col l-3 m-6 c-6" data-aos="fade-up" data-aos-duration="1500">
                             <img src="./img/introduce/Can-ho-studio-3.jpg" alt="" class="introduce-img">
                             <div class="intro-content">
                                 <h3 class="intro-content-title">Studio</h3>
@@ -187,7 +191,7 @@
                                 <button href="" class="intro-btn">Chọn nhà</button>
                             </div>
                         </div>
-                        <div class="introduce-backgroud col l-3 m-6 c-6">
+                        <div class="introduce-backgroud col l-3 m-6 c-6" data-aos="zoom-in-up" data-aos-duration="1500">
                             <img src="./img/introduce/lissete-laverde-7OFTxbGWqwk-unsplash.jpg" alt="" class="introduce-img">
                             <div class="intro-content">
                                 <h3 class="intro-content-title">Sang Trọng</h3>
@@ -204,13 +208,13 @@
         <div class="content">
             <div class="grid wide">
                 <div class="buy">
-                    <h1 class="buy-title"><span>Các Lựa Chọn</span> Gần Đây</h1>
+                    <h1 class="buy-title" data-aos="zoom-in-up"><span>Lựa Chọn</span> Gần Đây</h1>
                     <div class="row">
                         <!-- Item 1 -->
-                        <div class="col l-3 m-6 c-6 buy-list">
+                        <div class="col l-3 m-6 c-6 buy-list" data-aos="zoom-in-up" data-aos-duration="1500">
                             <a class="catalog-singer-link-a" href="./detail.html">
                             <img src="./img/buy/buy-4.jpg" alt="" class="buy-img1">
-                                <h6 class="buy-item-price">$1199.00/mon</h6>
+                                <h6 class="buy-item-price" style="--h:#D980FA">$1199.00/mon</h6>
                             <div class="buy-info-item">
                                 <h5 class="buy-item-name">Alchemy by Alta</h5>
                                 <ul class="buy-item-list">
@@ -224,10 +228,10 @@
                         </div>
                         <!-- Item 2 -->
     
-                        <div class="col l-3 m-6 c-6 buy-list">
+                        <div class="col l-3 m-6 c-6 buy-list" data-aos="zoom-in-down" data-aos-duration="1500">
                             <a class="catalog-singer-link-a" href="./detail.html"> 
                             <img src="./img/buy/buy-5.jpg" alt="" class="buy-img1">
-                            <h6 class="buy-item-price">$2699.00/mon</h6>
+                            <h6 class="buy-item-price" style="--h:#74b9ff">$2699.00/mon</h6>
     
                             <div class="buy-info-item">
                                 <h5 class="buy-item-name">Bayside Village Apartments</h5>
@@ -242,10 +246,10 @@
                         </div>
                         <!-- Item 3 -->
     
-                        <div class="col l-3 m-6 c-6 buy-list">
+                        <div class="col l-3 m-6 c-6 buy-list" data-aos="zoom-in-down" data-aos-duration="1500">
                             <a class="catalog-singer-link-a" href="./detail.html"> 
                             <img src="./img/buy/buy-6.jpg" alt="" class="buy-img1">
-                            <h6 class="buy-item-price">$1595.00/mon</h6>
+                            <h6 class="buy-item-price" style="--h:#f0932b">$1595.00/mon</h6>
     
                             <div class="buy-info-item">
                                 <h5 class="buy-item-name">Avalon at Mission Bay</h5>
@@ -258,10 +262,10 @@
                             </div>
                             </a>
                         </div>
-                        <div class="col l-3 m-6 c-6 buy-list">
+                        <div class="col l-3 m-6 c-6 buy-list" data-aos="zoom-in-up" data-aos-duration="1500">
                             <a class="catalog-singer-link-a" href="./detail.html"> 
                             <img src="./img/buy/buy-12.jpg" alt="" class="buy-img1">
-                            <h6 class="buy-item-price">$1595.00/mon</h6>
+                            <h6 class="buy-item-price" style="--h:#badc58">$1595.00/mon</h6>
                             <div class="buy-info-item">
                                 <h5 class="buy-item-name">Avalon at Mission Bay</h5>
                                 <ul class="buy-item-list">
@@ -284,46 +288,45 @@
 
 
         <!-- TOOLS AND RESOURCES -->
-        <div class="parallax">
-            <div class="grid wide">
-                <div class="parallax-container">
-                    <h1 class="buy-title"><span>Công Cụ</span> Và <span>Nguồn lực</span></h1>
-                    <div class="row">
-                        <div class="col l-4 m-4 c-12 parallax-item">
-                            <div class="parallax-hover">
-                                <i class="parallax-icon ti-comment-alt"></i>
-                                <h2 class="parallax-title2">DANH SÁCH</h2>
-                                <p class="parallax-text">KIỂM TRA THÊM 40% CÁC NGÔI NHÀ BÁN. XEM HÌNH ẢNH VỀ CUỘC SỐNG MỚI CỦA BẠN TẠI NƠI MỚI. XEM BẢN ĐỒ, THỊ TRƯỜNG, ETC.</p>
-                            </div>
+       
+      
+            <h1 class="buy-title" data-aos="zoom-in-down"><span>Công Cụ</span> Và <span>Nguồn lực</span></h1>
+            <div class="parallax-ser">
+                <div class="tool-ser">
+                    <div class="serBox" data-aos="zoom-out-down" data-aos-duration="1500">
+                        <div class="serIcon" style="--i:#4eb7ff">
+                            <i class="ti-comment-alt"></i>
                         </div>
-                      
-                        <div class="col l-4 m-4 c-12 parallax-item">
-                            <div class="parallax-hover">
-                                <i class="parallax-icon ti-star"></i>
-                                <h2 class="parallax-title2">HÀNG ĐẦU</h2>
-                                <p class="parallax-text">
-                                    TẤT CẢ CÁC ĐẠI LÝ BẤT ĐỘNG SẢN CỦA CHÚNG TÔI ĐỀU LÀ CHUYÊN NGHIỆP TRONG KHU VỰC GẦN ĐÂY CỦA BẠN, SẴN SÀNG GIÚP BẠN TÌM KIẾM NGÔI NHÀ MỚI.
-                                </p>
-                            </div>
+                        <div class="serContent">
+                            <h2>DANH SÁCH</h2>
+                            <p>
+                                KIỂM TRA THÊM 40% CÁC NGÔI NHÀ BÁN. XEM HÌNH ẢNH VỀ CUỘC SỐNG MỚI CỦA BẠN TẠI NƠI MỚI. XEM BẢN ĐỒ, THỊ TRƯỜNG, ETC.
+                            </p>
                         </div>
-                        
-                        
-                        <div class="col l-4 m-4 c-12 parallax-item">
-                            <div class="parallax-hover">
-                            <i class="parallax-icon ti-pencil-alt"></i>
-                            <h2 class="parallax-title2">DỰ ĐOÁN</h2>
-                            <p class="parallax-text">WANNA BIẾT NHÀ MỚI CỦA BẠN SẼ CÓ GIÁ BAO NHIÊU? XEM DỰ KIẾN MỌI CĂN HỘ VÀ KIỂM TRA GIÁ CHO CÁC NHÀ TƯƠNG TỰ.</p>
-                            </div>
-                        </div>
-                        
-                        
                     </div>
+                    <div class="serBox" data-aos="zoom-out-down" data-aos-duration="1500">
+                        <div class="serIcon" style="--i:#fd6494">
+                            <i class=" ti-star"></i>
+                        </div>
+                        <div class="serContent">
+                            <h2 >HÀNG ĐẦU</h2>
+                            <p > TẤT CẢ CÁC ĐẠI LÝ BẤT ĐỘNG SẢN CỦA CHÚNG TÔI ĐỀU LÀ CHUYÊN NGHIỆP TRONG KHU VỰC GẦN ĐÂY CỦA BẠN, SẴN SÀNG GIÚP BẠN TÌM KIẾM NGÔI NHÀ MỚI.</p>
+                        </div>
+                    </div>
+                    <div class="serBox" data-aos="zoom-out-down" data-aos-duration="1500">
+                        <div class="serIcon" style="--i:#43f390">
+                        <i class="ti-pencil-alt"></i>
+                        </div>
+                        <div class="serContent">
+                            <h2>DỰ ĐOÁN</h2>
+                            <p >WANNA BIẾT NHÀ MỚI CỦA BẠN SẼ CÓ GIÁ BAO NHIÊU? XEM DỰ KIẾN MỌI CĂN HỘ VÀ KIỂM TRA GIÁ CHO CÁC NHÀ TƯƠNG TỰ.</p>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
-        </div>
-      
         <!-- NEW WORK TEAM -->
-        <h1 class="team-section-title"> <span>Nhóm</span> Làm Việc</h1>
+        <h1 class="team-section-title" data-aos="zoom-in-down"> <span>Nhóm</span> Làm Việc</h1>
     <div class="team-section">
         <div class="person">
             <img src="img/team/p1.png" alt="" class="person-img">
@@ -471,8 +474,12 @@
         </div>
     </footer>
 
+   
     <script src="./assets/js/app.js"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </div>
 </body>
 

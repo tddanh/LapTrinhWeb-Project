@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./font/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-   
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -103,6 +103,37 @@
                     </li>
                 </ul>
             </nav>
+            <!-- REPONSIV -->
+            <div class="navbar-btn" id="mobile-menu-btn">
+                <i class="ti-view-list"></i>
+          </div>
+          <a href="./index.html">
+              <img src="./img/logo-dark.png" alt="" class="navbar__logo-img2">
+          </a>  
+
+          <nav class="header__navbar-mobile" id="header-repon">
+              <i class="ti-close"></i>
+              <ul class="navbar-list-mobile">
+                  <li class="navbar-item-mobile">
+                      <a href="./index.html" class="navbar-item-a-mobile">Trang Chủ</a>
+                  </li>
+                  <li class="navbar-item-mobile">
+                      <a href="./catalog.html" class="navbar-item-a-mobile">Danh Mục</a>
+                  </li>
+                  <li class="navbar-item-mobile">
+                      <a href="" class="navbar-item-a-mobile">Gửi Sở Hữu</a>
+                  </li>
+                  <li class="navbar-item-mobile">
+                      <a href="./services.html" class="navbar-item-a-mobile">Dịch vụ</a>
+                  </li>
+                  <li class="navbar-item-mobile">
+                      <a href="./about.html" class="navbar-item-a-mobile">Chúng tôi</a>
+                  </li>
+                  <li class="navbar-item-mobile">
+                      <a href="./contact.html" class="navbar-item-a-mobile">Liên hệ</a>
+                  </li>
+              </ul>
+          </nav>
         <!-- </div> -->
     </div>
 
@@ -112,7 +143,7 @@
                 <h1 class="about-img-name">Chi Tiết Căn Hộ</h1>
                 <div class="contact-test">
                     <div class="layout-contact-wrapper">
-                        <div class="layout-contact-btn-info">
+                        <div class="layout-contact-btn-info" >
                             <div class="layout-contact-info-icon"><i class="ti-facebook"></i></div>
                             <span>FaceBook</span>
                         </div>   
@@ -180,9 +211,9 @@
           <br>
           <!-- The dots/circles -->
         
-          <div class="grid">
-              <div class="grid__row">
-                  <div class="house-detail grid__coloum-7">
+          <div class="grid wide">
+              <div class="row">
+                  <div class="house-detail col l-7">
 
                         <div class="house-info">
                             <h4><i class="ti-home"></i> Toàn Bộ Nhà</h4>
@@ -200,7 +231,7 @@
                             <h4><i class="ti-check-box"></i> Hủy miễn phí trước 1 Tuần</h4>
                         </div>
                     </div>
-                    <div class="house-detail  grid__coloum-7">
+                    <div class="house-detail  col l-7">
                       <h1>NƠI NÀY CÓ NHỮNG GÌ CHO BẠN</h1>
                       <div class="house-detail2">
                         <div class="house-info house-info2">
@@ -225,7 +256,7 @@
                    
               </div>
               <!-- ĐẶT PHÒNG -->
-                  <div class="grid__coloum-4">
+                  <div class="col l-5">
 
 
                 </div>
@@ -358,6 +389,10 @@
    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./assets/js/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </div>
 </body>
 

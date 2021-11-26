@@ -22,4 +22,19 @@
    .parallax{
        height: 900px;
    }
+   .about-company-overview{
+     flex-direction: column;
+   }
+   .about-company-content-img{
+     margin: 0 auto 20px auto;
+   }
+   .about-company-soulof {
+    flex-direction: column;
+  }
+  .founder-info1{
+    text-align: center;
+  }
+  .layout-contact-wrapper{
+    display: none;
+  }
   }
