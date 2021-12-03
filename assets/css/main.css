@@ -829,6 +829,7 @@
   font-size: 1.7rem;
   color: rgb(17, 17, 17);
   font-weight: 500;
+  color: #fff;
 }
 /*  */
 .about-company {
@@ -847,7 +848,7 @@
 }
 .about-company-item {
   margin-left: 20px;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   padding: 1px 20px;
 }
 .about-company-item-a::after {

@@ -64,6 +64,10 @@
   .about-title-link {
     display: block;
   }
+  .about-company-item{
+    padding: 0;
+    margin-left: 0;
+  }
   .about-img-name {
     font-size: 4rem;
   }
