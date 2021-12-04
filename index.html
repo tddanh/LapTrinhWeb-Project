@@ -22,16 +22,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $(".navbar-btn").click(function () {
-                $(".header__navbar-mobile").show();
-            });
-            $(".ti-close").click(function () {
-                $(".header__navbar-mobile").hide();
-            });
-        });
-    </script>
+
 
 
 </head>
@@ -489,12 +480,23 @@
     </div>
 </footer>
 
-
+<script>
+    $(document).ready(function () {
+        $(".navbar-btn").click(function () {
+            $(".header__navbar-mobile").show();
+        });
+        $(".ti-close").click(function () {
+            $(".header__navbar-mobile").hide();
+        });
+    });
+</script>
 <script src="./assets/js/app.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
 </script>
+
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>

@@ -1,3 +1,6 @@
+'use strict'
+
+
 // NÚT QUAY VỀ ĐẦU TRANG
 window.onscroll = function () {
     scrollFunction()
