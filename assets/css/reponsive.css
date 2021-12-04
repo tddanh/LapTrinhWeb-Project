@@ -58,6 +58,9 @@
   }
 }
 @media (max-width: 770px) {
+  .buy-title{
+    font-size: 2.2rem;
+  }
   .layout-contact-wrapper {
     display: none;
   }
@@ -69,7 +72,7 @@
     margin-left: 0;
   }
   .about-img-name {
-    font-size: 4rem;
+    font-size: 3.6rem;
   }
   .souof-text{
     margin: 0;
