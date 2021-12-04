@@ -1,40 +1,98 @@
 @media (max-width: 1023px) {
-
-    html{
-      font-size: 50%;
-    }
-    .navbar-btn{
-      display: block;
-      position: absolute;
-      right: 20px;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-    .navbar__logo-img2{
-      display: block;
-    }
-    .header__navbar{
-      display: none;
-    }
-    .header__info{
-      display: none;
-    }
-   .parallax{
-       height: 900px;
-   }
-   .about-company-overview{
-     flex-direction: column;
-   }
-   .about-company-content-img{
-     margin: 0 auto 20px auto;
-   }
-   .about-company-soulof {
-    flex-direction: column;
+  html {
+    font-size: 55%;
   }
-  .founder-info1{
-    text-align: center;
+  .navbar-btn {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
   }
-  .layout-contact-wrapper{
+  .navbar__logo-img2 {
+    display: block;
+  }
+  .header__navbar {
     display: none;
   }
+  .header__info {
+    display: none;
   }
+  .parallax {
+    height: 900px;
+  }
+  .about-company-overview {
+    flex-direction: column;
+  }
+  .about-company-content-img {
+    margin: 0 auto 20px auto;
+  }
+  .about-company-soulof {
+    flex-direction: column;
+  }
+  .founder-info1 {
+    text-align: center;
+  }
+
+  /* CONTACT */
+  .contact-container {
+    width: 90%;
+    min-width: auto;
+    margin: 20px;
+  }
+  .contact-container-info {
+    top: 0;
+    height: 400px;
+    position: relative;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .contact-container-form {
+    position: relative;
+    width: calc(100% -400px);
+    padding-left: 0;
+    padding: 40px;
+    border-radius: 0;
+    margin-left: 0;
+    height: 400px;
+  }
+}
+@media (max-width: 770px) {
+  .buy-title{
+    font-size: 2.2rem;
+  }
+  .layout-contact-wrapper {
+    display: none;
+  }
+  .about-title-link {
+    display: block;
+  }
+  .about-company-item{
+    padding: 0;
+    margin-left: 0;
+  }
+  .about-img-name {
+    font-size: 3.6rem;
+  }
+  .souof-text{
+    margin: 0;
+  }
+  .souof-text2{
+    padding-left: 0;
+  }
+  /* CONTACT */
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-container-form {
+    width: 100%;
+    height: auto;
+  }
+  .contact-container-info {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  
+}
