@@ -1,0 +1,44 @@
+:root {
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --text-color: #333;
+    --primary-color:#ff7e00;
+}
+*{
+    /* padding: 0; margin: 0; */
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box; 
+    scroll-behavior: smooth;
+
+}
+a{
+    text-decoration: none;
+}
+
+@keyframes modalFadeIn{
+    from{
+        transform: translateY(10px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+.title{
+    text-align: center;
+    font-size: 3.6rem;
+}
+@keyframes title{
+    from{
+      transform: scale(1);
+    }
+    
+    50%{
+      transform: scale(1.2);
+    }
+    
+} 
