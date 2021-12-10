@@ -727,7 +727,7 @@
     height: 85vh;
     position: relative;
     text-align: center;
-    background-attachment: fixed;
+    
 }
 
 .contact-title {
@@ -1600,7 +1600,7 @@
     align-items: center;
     min-height: 85vh;
     background: url(../../img/slider/contact.jpg) center center/cover no-repeat;
-    background-attachment: fixed;
+    
 }
 
 .tool-ser {
